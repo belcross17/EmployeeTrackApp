@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS company_db;
-CREATE DATABASE company_db;
-USE company_db;
+DROP DATABASE IF EXISTS brayan_db;
+CREATE DATABASE brayan_db;
+USE brayan_db;
