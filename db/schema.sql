@@ -1,3 +1,10 @@
 DROP DATABASE IF EXISTS brayan_db;
 CREATE DATABASE brayan_db;
 USE brayan_db;
+
+DROP TABLE IF EXISTS department;
+
+CREATE TABLE department (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  dept_name VARCHAR(30) NOT NULL
+);
