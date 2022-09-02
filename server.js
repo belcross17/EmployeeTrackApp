@@ -12,7 +12,7 @@ const connection = mysql.createConnection({
   
   connection.connect(err => {
     if (err) throw err;
-    console.log("WELCOME TO ETA (Employee Tracker App");
+    console.log("Welcome to ETA (Employee Tracker App");
     startMenu();
   });
 
@@ -29,7 +29,7 @@ const connection = mysql.createConnection({
             'Add a Role',
             'Add an Employee',
             'Update Employee Role',
-            'Exit',
+            'Exit'
         ],
     })
     .then(response => {
